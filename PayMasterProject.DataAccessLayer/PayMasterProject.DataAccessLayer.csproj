@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PayMasterProject.EntityLayer\PayMasterProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

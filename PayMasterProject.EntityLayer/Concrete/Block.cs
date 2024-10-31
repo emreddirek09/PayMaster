@@ -12,5 +12,8 @@ namespace PayMasterProject.EntityLayer.Concrete
         public string BlockName { get; set; }
         public int BlockSiteID { get; set; }
         public int BlockNumberOfFloors { get; set; }
+        public int SiteID { get; set; }
+        public Site Site { get; set; }
+        public List<Daire> Daires { get; set; }
     }
 }

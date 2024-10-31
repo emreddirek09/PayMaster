@@ -21,4 +21,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PayMasterProject.BusinessLayer\PayMasterProject.BusinessLayer.csproj" />
+    <ProjectReference Include="..\PayMasterProject.DataAccessLayer\PayMasterProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PayMasterProject.DtoLayer\PayMasterProject.DtoLayer.csproj" />
+    <ProjectReference Include="..\PayMasterProject.EntityLayer\PayMasterProject.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

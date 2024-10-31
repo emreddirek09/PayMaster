@@ -12,5 +12,8 @@ namespace PayMasterProject.EntityLayer.Concrete
         public string SiteName { get; set; }
         public string SiteAddress { get; set; }
         public bool SiteIsApartment { get; set; }
+        public List<Block> Blocks { get; set; }
+
+
     }
 }
