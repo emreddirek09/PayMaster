@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -21,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PayMasterProject.DataAccessLayer\PayMasterProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PayMasterProject.DtoLayer\PayMasterProject.DtoLayer.csproj" />
     <ProjectReference Include="..\PayMasterProject.EntityLayer\PayMasterProject.EntityLayer.csproj" />
   </ItemGroup>
 
